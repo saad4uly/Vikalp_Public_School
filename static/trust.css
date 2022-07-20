@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 231, 231);
+    padding: 0 1.5rem;
+}
+
+.blog-post{
+    width: 100%;
+    max-width: 110rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    background:linear-gradient(#f1c40f, #f39c12);
+}
+
+.blog-post_img{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.blog-post_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.blog-post_img::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+    border-radius: .8rem;
+    background: linear-gradient(to right, rgba(79, 172, 254, .8),
+                                            rgba(0, 242, 254, .8));
+}
+
+
+.blog-post_title{
+    margin: 1.5rem 0 2rem;
+    columns: #4facfe;
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+.blog-post_text{
+    font-size: 2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-post-cta{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    columns: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: .8rem;
+    text-decoration: none;
+}
+.blog-post-cta:hover{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+}
+
+
+/* ---------------- */
+.blog-post1{
+    width: 100%;
+    max-width: 110rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    margin-top: 5rem;
+    background:linear-gradient(#f1c40f, #f39c12);
+}
+
+.blog-post_img1{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.blog-post_img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.blog-post_img1::before{
+    /* content: ''; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+    border-radius: .8rem;
+    background: linear-gradient(to right, rgba(79, 172, 254, .8),
+                                            rgba(0, 242, 254, .8));
+}
+
+
+.blog-post_title1{
+    margin: 1.5rem 0 2rem;
+    columns: #4facfe;
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+.blog-post_text1{
+    font-size: 2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.7);
+}
+
+.blog-post-cta1{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    columns: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: .8rem;
+    text-decoration: none;
+}
+.blog-post-cta1:hover{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+}
+
+/* vikalp trust */
+.vikalp-trusts a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 275rem;
+    color: rgb(128, 128, 3);
+}
+
+.vikalp-trusts-box{
+    border: 2px solid black;
+    background:linear-gradient(#f1c40f, #f39c12);
+    font-size: 2rem;
+    max-width: 73rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: cursive;
+}
+.vikalp-trusts-box p{
+    font-size: 2rem;
+    font-family: cursive;
+    padding: 7px 8px;
+    color: #fff;
+}
+/* .credits{
+    background-color: rgb(233, 231, 231);
+} */
+.credits a{
+    font-size: 1.5rem;
+    color: rgb(133, 132, 132);
+    
+}
+/* vikalp trust */
+
+@media screen and (max-width: 1616px) {
+    .vikalp-trusts {
+        margin-top: 10rem;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .vikalp-trusts {
+        margin-top: -20rem;
+    }
+}
+
+@media screen and (max-width: 1069px) {
+    .blog-post1{
+        max-width: 80rem;
+    }
+    .blog-post_img1{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+    .blog-post{
+        max-width: 80rem;
+    }
+    .blog-post_img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+    .vikalp-trusts {
+        margin-top: 35rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .vikalp-trusts {
+        margin-top: -45rem;
+    }
+}
+@media screen and (max-width: 868px) {
+    .blog-post1{
+        max-width: 70rem;
+    }
+    .blog-post{
+        max-width: 70rem;
+    }
+    .vikalp-trusts {
+        margin-top: 90rem;
+    }
+}
+@media screen and (max-width: 821px) {
+    .vikalp-trusts {
+        margin-top: 20rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .blog-post1{
+        padding: 2.5rem;
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+    .blog-post_img1{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8rem);
+    }
+    .blog-post{
+        padding: 2.5rem;
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+    .blog-post_img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8rem);
+    }
+    .blog-post_title{
+        margin-top: -50px;
+    }
+    .blog-post_title1{
+        margin-top: -50px;
+    }
+    .vikalp-trusts {
+        margin-top: 105rem;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .vikalp-trusts {
+        margin-top: 160rem;
+    }  
+}
+@media screen and (max-width: 500px) {
+    .vikalp-trusts {
+        margin-top: 170rem;
+    }
+    .vikalp-trusts-box{
+        margin: 0px 10px;
+        padding: 0px;
+    }    
+}
+@media screen and (max-width: 465px) {
+    .vikalp-trusts {
+        margin-top: 175rem;
+    }   
+}
+@media screen and (max-width: 448px) {
+    .vikalp-trusts {
+        margin-top: 180rem;
+    }   
+}
+@media screen and (max-width: 414px) {
+    .vikalp-trusts {
+        margin-top: 150rem;
+    }   
+}
+@media screen and (max-width: 390px) {
+    .vikalp-trusts {
+        margin-top: 170rem;
+    }   
+}
+@media screen and (max-width: 394px) {
+    .vikalp-trusts {
+        margin-top: 170rem;
+    }   
+}
+@media screen and (max-width: 376px) {
+    .vikalp-trusts {
+        margin-top: 205rem;
+    }   
+}
+@media screen and (max-width: 280px) {
+    .vikalp-trusts {
+        margin-top: 285rem;
+    }   
+}
